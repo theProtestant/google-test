@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul #header {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #ddddd;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #header li {
+                display: block;
+                padding: 8px;
+                background-color: #ddddd;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+           #header .Right {
+                float: right;
+            }
+
+            #header .Left {
+                float: left;
+            }
+
+            footer {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #dddddd;
+                font-family: Arial, Helvetica, sans-serif;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+            }
+
+            footer li {
+                display: block;
+                padding: 8px;
+                background-color: #dddddd;
+            }
+
+            footer .Right {
+                float: right;
+            }
+
+            footer .Left {
+                float: left;
+            }
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 85%;
+                
+            }
+
+            .searchbar {
+                margin: 0;
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                max-width: 400px;
+                width: 100%;
+            
+            }
+
+            .searchbar input {
+                margin: auto;
+                margin-top: 10px;
+                width: 100%;
+
+            }
+
+
+
+         
+        </style>
+        <title>
+            Google Homepage
+        </title>
+
+    </head>
+
+    <body>
+        <ul id="header">
+            <li id="About" class="Left">About</li>
+            <li id="Store" class="Left">Store</li>
+            <li id="Gmail" class="Right">Gmail</li>
+            <li id="Images" class="Right">Images</li>
+        </ul>
+        
+        <footer>
+            <ul>
+                <li id="Advertising" class="Left">Advertising</li>
+                <li id="Business" class="Left">Business</li>
+                <li id="How" class="Left">How Search works</li>
+                <li id="Privacy" class="Right">Privacy</li>
+                <li id="Terms" class="Right">Terms</li>
+                <li id="Settings" class="Right">Settings</li>
+            </ul>
+
+        </footer>
+        <div class="searchbar"> 
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <input type="text" placeholder="Search..">
+        </div>
+    </body>
+</html>
